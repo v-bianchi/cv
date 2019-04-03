@@ -110,4 +110,17 @@ h2 {
 
 @media print {
   .projects {page-break-after: always;}
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  a {
+    &::before {
+      content: '▶ '
+    }
+    text-decoration: none;
+    color: $color-text-regular;
+  }
 }
