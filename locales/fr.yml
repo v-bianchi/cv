@@ -2,7 +2,7 @@ fr:
   job_title: "Développeur web full stack"
   profile:
     heading: "Profil"
-    about: "Curious and fast-learning web developer, previously worked on very diverse fields ranging from photography to automobile mechanics. After finishing Le Wagon coding bootcamp, I was immediately hired by them as a freelance teaching assistant. A few months later, I was promoted to lecturer and taught in Montreal, Berlin and São Paulo. Currently seeking a full-time web developer position."
+    about: "Curieux et d'apprentissage facile, j'ai auparavant travaillé dans des domaines très variés, comme la mécanique automobile et la photographie. Après avoir fini un bootcamp en développement web chez Le Wagon, j'ai tout de suite été embauché chez eux-mêmes en tant qu'assistant à l'enseignement freelance. Quelques mois plus tard, une promotion vers le poste d'enseignant s'est présentée et j'ai donné des cours dans les succursales de Montréal, Berlin et São Paulo. Présentement je suis en recherche d'un emploi de développeur web à temps plein."
   skills:
     heading: "Compétences"
     teamwork: "Travail en équipe"
@@ -10,29 +10,29 @@ fr:
   projects:
     heading: "Projets personnels"
     project_1:
-      description: "Create a different \"movies to watch together\" list for each one of your friends, where either you or your buddy can add movies and mark them as watched. Login as bob@gmail.com, password 123456 to see a demo user with some content already present."
-      tech: "Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, TMDB movie database API"
+      description: "Créez une liste de films à voir ensemble pour chacun de vos amis, dans laquelle vous pouvez ajouter des films et marquer ceux que vous avez déjà regardé. Faites login en tant que bob@gmail.com, mot de passe 123456 pour voir un usager démo avec du contenu qui existe déjà."
+      tech: "Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, API de la banque de données de cinéma TMDB"
     project_2:
-      description: "Get an instant wine suggestion based on meal pairing, budget, and what's available at the nearest SAQ outlet (Montreal only)."
-      tech: "Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), Google Maps API"
+      description: "Mon projet final réalisé au bootcamp. Obtenez une suggestion de vin basée sur l'accord avec le repas, votre budget et la disponibilité chez la succursale de la SAQ la plus proche (Montréal seulement)."
+      tech: "Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), API de Google Maps"
   work:
     heading: "Expérience de travail récente"
     job_1:
       position: "Enseignant en développement web"
       company: "Le Wagon Montréal, Berlin, São Paulo"
       time: "mars 2018 - présent"
-      description: "Give lectures, answer the students' questions through a ticketing system, and animate live-code sessions by the end of the day."
+      description: "Donner des cours, répondre aux questions des étudiants à l'aide d'un système de tickets, animer une session de live-code à la fin de la journée"
     job_2:
       position: "Mécanicien"
       company: "John Scotti Subaru"
       time: "avril 2017 - juillet 2017"
-      description: "Performed routine maintenance tasks such as tire changes, oil changes, brake system tune-up, and pre-delivery inspections."
+      description: "Exécuter des tâches d'entretien véhiculaire de routine, telles que changement d'huile, changement de pneus, nettoyage dy système de freins et inspections pré-livraison."
   education:
     heading: "Formation"
     degree_1:
       title: "Bootcamp en développement web full stack"
       institution: "Le Wagon Montréal"
-      description: "9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production an Airbnb-like marketplace and a final project."
+      description: "Bootcamp intensif de 9 semaines incluant HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku et Ruby on Rails. Dans une équipe de 4 personnes, nous avons conçu, implementé et déployé en production un marketplace de style Airbnb et un projet final."
       time: "janvier 2018 - mars 2018"
     degree_2:
       time: "janvier 2016 - avril 2017"
