@@ -1,0 +1,113 @@
+// EXTERNAL FONTS
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+// SASS VARIABLES
+$color-text-dark: #000000;
+$color-text-regular: #2A2A2A;
+$color-text-light: #FFFFFF;
+$color-title-bg: #014eba;
+$icon-size: 3rem;
+
+// CSS RESET
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  color: $color-text-regular;
+}
+
+ul {
+  list-style: none;
+}
+
+// LAYOUT AND COMPONENTS
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > * {
+    flex: 1 1 0;
+    text-align: center;
+  }
+  h1 {
+    color: $color-text-dark;
+  }
+  h3.job-title {
+    margin-top: -4px;
+  }
+  > i {
+    font-size: 4rem;
+  }
+  .contact-list {
+    text-align: left;
+    i {
+      margin-right: .5rem;
+      margin-left: 2rem;
+    }
+  }
+}
+
+section > *:not(h2) {
+  padding: 15px;
+}
+
+header,
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: $color-text-light;
+  background: $color-title-bg;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.skill-icons {
+  display: flex;
+  align-items: center;
+  i, img {
+    font-size: $icon-size;
+    width: $icon-size;
+    margin-right: 10px;
+  }
+  span {
+    flex-basis: 6rem;
+  }
+}
+
+.list li {
+  margin-bottom: 15px;
+  > span {
+    float: right;
+  }
+}
+
+
+@media print {
+  .projects {page-break-after: always;}
+}
