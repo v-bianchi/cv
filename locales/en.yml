@@ -1,0 +1,41 @@
+en:
+  job_title: "Full stack web developer"
+  profile:
+    heading: "Profile"
+    about: "Curious and fast-learning web developer, previously worked on very diverse fields ranging from photography to automobile mechanics. After finishing Le Wagon coding bootcamp, I was immediately hired by them as a freelance teaching assistant. A few months later, I was promoted to lecturer and taught in Montreal, Berlin and São Paulo. Currently seeking a full-time web developer position."
+  skills:
+    heading: "Skills"
+    teamwork: "Teamwork"
+    languages: "Languages"
+  projects:
+    heading: "Personal projects"
+    project_1:
+      description: "Create a different \"movies to watch together\" list for each one of your friends, where either you or your buddy can add movies and mark them as watched. Login as bob@gmail.com, password 123456 to see a demo user with some content already present."
+      tech: "Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, TMDB movie database API"
+    project_2:
+      description: "Get an instant wine suggestion based on meal pairing, budget, and what's available at the nearest SAQ outlet (Montreal only)."
+      tech: "Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), Google Maps API"
+  work:
+    heading: "Recent work experience"
+    job_1:
+      position: "Web development teacher"
+      company: "Le Wagon Montreal, Berlin, São Paulo"
+      time: "March 2018 - present"
+      description: "Give lectures, answer the students' questions through a ticketing system, and animate live-code sessions by the end of the day."
+    job_2:
+      position: "Mechanic"
+      company: "John Scotti Subaru"
+      time: "April 2017 - July 2017"
+      description: "Performed routine maintenance tasks such as tire changes, oil changes, brake system tune-up, and pre-delivery inspections."
+  education:
+    heading: "Education"
+    degree_1:
+      title: "Full stack web development bootcamp"
+      institution: "Le Wagon Montreal"
+      description: "9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production an Airbnb-like marketplace and a final project."
+      time: "January 2018 - March 2018"
+    degree_2:
+      time: "January 2016 - April 2017"
+    degree_3:
+      institution: "O'Sullivan College of Montreal"
+      time: "September 2014 - October 2015"

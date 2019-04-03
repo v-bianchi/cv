@@ -3,7 +3,7 @@
     <i class="fas fa-code"></i>
     <div>
       <h1>Victor Bianchi</h1>
-      <h3 class="job-title">Full stack web developer</h3>
+      <h3 class="job-title"><%= t('job_title') %></h3>
     </div>
     <ul class="contact-list">
       <li><i class="fas fa-envelope-square"></i>vbianchi90@gmail.com</li>
@@ -14,15 +14,15 @@
   </header>
 
   <section class="profile">
-    <h2>Profile</h2>
+    <h2><%= t('profile.heading') %></h2>
 
     <p>
-      Curious and fast-learning web developer, previously worked on very diverse fields ranging from photography to automobile mechanics. After finishing Le Wagon coding bootcamp, I was immediately hired by them as a freelance teaching assistant. A few months later, I was promoted to lecturer and taught in Montreal, Berlin and São Paulo. Currently seeking a full-time web developer position.
+      <%= t('profile.about') %>
     </p>
   </section>
 
   <section class="skills">
-    <h2>Skills</h2>
+    <h2><%= t('skills.heading') %></h2>
 
     <div class="skill-icons">
       <span>Front-end</span>
@@ -41,13 +41,13 @@
       <i class="devicon-mongodb-plain-wordmark colored"></i>
     </div>
     <div class="skill-icons">
-      <span>Teamwork</span>
+      <span><%= t('skills.teamwork') %></span>
       <i class="devicon-git-plain-wordmark colored"></i>
       <i class="devicon-github-plain-wordmark colored"></i>
       <i class="devicon-trello-plain-wordmark colored"></i>
     </div>
     <div class="skill-icons">
-      <span>Languages</span>
+      <span><%= t('skills.languages') %></span>
       <%= image_tag "France.png" %>
       <%= image_tag "United-kingdom.png" %>
       <%= image_tag "Italy.png" %>
@@ -64,63 +64,63 @@
         <p><strong>Movie Tandem</strong></p>
         <p><a href="https://movie-tandem.herokuapp.com" target="_blank">https://movie-tandem.herokuapp.com</a></p>
         <p>
-          Create a different "movies to watch together" list for each one of your friends, where either you or your buddy can add movies and mark them as watched. Login as bob@gmail.com, password 123456 to see a demo user with some content already present.
+          <%= t('projects.project_1.description') %>
         </p>
-        <p><em>Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, TMDB movie database API</em></p>
+        <p><em><%= t('projects.project_1.tech') %></em></p>
       </li>
       <li>
         <p><strong>Winelife</strong></p>
         <p><a href="https://wine-life.herokuapp.com" target="_blank">https://wine-life.herokuapp.com</a></p>
         <p>
-          Get an instant wine suggestion based on meal pairing, budget, and what's available at the nearest SAQ outlet (Montreal only).
+          <%= t('projects.project_2.description') %>
         </p>
-        <p><em>Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), Google Maps API</em></p>
+        <p><em><%= t('projects.project_2.tech') %></em></p>
       </li>
     </ul>
   </section>
 
   <section class="work-experience">
-    <h2>Recent work experience</h2>
+    <h2><%= t('work.heading') %></h2>
 
     <ul class="list">
       <li>
-        <span>March 2018 - present</span>
-        <p><strong>Web development teacher</strong></p>
-        <p><em>Le Wagon</em></p>
+        <span><%= t('work.job_1.time') %></span>
+        <p><strong><%= t('work.job_1.time') %></strong></p>
+        <p><em><%= t('work.job_1.company') %></em></p>
         <p>
-          Give lectures, answer the students' questions through a ticketing system, and animate live-code sessions by the end of the day.
+          <%= t('work.job_1.description') %>
         </p>
       </li>
       <li>
-        <span>April 2017 - July 2017</span>
-        <p><strong>Mechanic</strong></p>
-        <p><em>John Scotti Subaru</em></p>
+        <span><%= t('work.job_2.time') %></span>
+        <p><strong><%= t('work.job_2.time') %></strong></p>
+        <p><em><%= t('work.job_2.company') %></em></p>
         <p>
-          Performed routine maintenance tasks such as tire changes, oil changes, brake system tune-up, and pre-delivery inspections.
+          <%= t('work.job_2.description') %>
         </p>
       </li>
     </ul>
   </section>
 
   <section class="education">
-    <h2>Education</h2>
+    <h2><%= t('education.heading') %></h2>
 
     <ul class="list">
       <li>
-        <span>January 2018 - March 2018</span>
-        <p><strong>Full stack web development bootcamp</strong></p>
-        <p><em>Le Wagon</em></p>
-        <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, Implemented and Shipped to production an Airbnb-like marketplace and a final project.</p>
+        <span><%= t('education.degree_1.time') %></span>
+        <p><strong><%= t('education.degree_1.title') %></strong></p>
+        <p><em><%= t('education.degree_1.institution') %></em></p>
+        <p><%= t('education.degree_1.description') %></p>
       </li>
       <li>
-        <span>January 2016 - April 2017</span>
+        <span><%= t('education.degree_2.time') %></span>
         <p><strong>DEP Mécanique automobile</strong></p>
         <p><em>École des métiers de l'équipement motorisé de Montréal</em></p>
       </li>
       <li>
-        <span>September 2014 - October 2015</span>
+        <span><%= t('education.degree_3.time') %></span>
         <p><strong>AEC Comptabilité financière informatisée</strong></p>
-        <p><em>Collège O'Sullivan de Montréal</em></p>
+        <p><em><%= t('education.degree_3.institution') %></em></p>
       </li>
     </ul>
   </section>
