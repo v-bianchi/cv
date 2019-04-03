@@ -52,5 +52,5 @@ configure :build do
   # Append a hash to asset urls (make sure to use the url helpers)
   activate :asset_hash
 
-  activate :asset_host, :host => 'https://v-bianchi.github.io/'
+  activate :asset_host, :host => 'https://v-bianchi.github.io/cv/'
 end
