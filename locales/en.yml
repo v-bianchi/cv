@@ -2,7 +2,7 @@ en:
   job_title: "Full stack web developer"
   profile:
     heading: "Profile"
-    about: "Curious and fast-learning web developer, previously worked on very diverse fields ranging from photography to automobile mechanics. After finishing Le Wagon coding bootcamp, I was immediately hired by them as a freelance teaching assistant. A few months later, I was promoted to lecturer and taught in Montreal, Berlin and São Paulo. Currently seeking a full-time web developer position."
+    about: "Curious and fast-learning web developer, previously worked on very diverse fields ranging from photography to automobile mechanics. After shifting careers to web development, I spent some time teaching at a code bootcamp around the world and worked at a custom clothing company with a large Rails application."
   skills:
     heading: "Skills"
     teamwork: "Teamwork"
@@ -13,16 +13,24 @@ en:
       description: "Create a different Movies To Watch Together list for each one of your friends, where either you or your buddy can add movies and mark them as watched. Login as bob@gmail.com, password 123456 to see a demo user with some content already present."
       tech: "Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, TMDB movie database API"
     project_2:
-      description: "My final project from the coding bootcamp. Get an instant wine suggestion based on meal pairing, budget, and what's available at the nearest SAQ outlet (Montreal only)."
-      tech: "Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), Google Maps API"
+      description: "A simple worldwide weather forecast website"
+      tech: "Tech: React, Dark Sky API, Algolia Places API"
+    project_3:
+      description: "A smart gadget that shows how many bikes are available at the nearest bike sharing stations."
+      tech: "Tech: Arduino microcontroller, Bixi API"
   work:
     heading: "Recent work experience"
     job_1:
+      position: "Full stack web developer"
+      company: "Surmesur"
+      time: "March 2019 - October 2019"
+      description: "Fix bugs and code new features for a Rails menswear customization app, following a strict code review process and TDD practices."
+    job_2:
       position: "Web development teacher"
       company: "Le Wagon Montreal, Berlin, São Paulo"
       time: "March 2018 - present"
       description: "Give lectures, answer the students' questions through a ticketing system, and animate live-code sessions by the end of the day."
-    job_2:
+    job_3:
       position: "Mechanic"
       company: "John Scotti Subaru"
       time: "April 2017 - July 2017"

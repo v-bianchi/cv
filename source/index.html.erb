@@ -52,7 +52,7 @@
     <div class="skill-icons">
       <span>Back-end</span>
       <i class="devicon-rails-plain-wordmark colored"></i>
-      <i class="devicon-express-original-wordmark colored"></i>
+      <i class="devicon-nodejs-plain-wordmark colored"></i>
       <i class="devicon-postgresql-plain-wordmark colored"></i>
       <i class="devicon-mongodb-plain-wordmark colored"></i>
     </div>
@@ -60,39 +60,9 @@
       <span><%= t('skills.teamwork') %></span>
       <i class="devicon-git-plain-wordmark colored"></i>
       <i class="devicon-github-plain-wordmark colored"></i>
+      <i class="devicon-bitbucket-plain-wordmark colored"></i>
       <i class="devicon-trello-plain-wordmark colored"></i>
     </div>
-    <div class="skill-icons">
-      <span><%= t('skills.languages') %></span>
-      <%= image_tag "France.png" %>
-      <%= image_tag "United-kingdom.png" %>
-      <%= image_tag "Italy.png" %>
-      <%= image_tag "Portugal.png" %>
-      <%= image_tag "Spain.png" %>
-    </div>
-  </section>
-
-  <section class="projects">
-    <h2><%= t('projects.heading') %></h2>
-
-    <ul class="list">
-      <li>
-        <p><strong>Movie Tandem</strong></p>
-        <p><a href="https://movie-tandem.herokuapp.com" target="_blank">https://movie-tandem.herokuapp.com</a></p>
-        <p>
-          <%= t('projects.project_1.description') %>
-        </p>
-        <p><em><%= t('projects.project_1.tech') %></em></p>
-      </li>
-      <li>
-        <p><strong>Winelife</strong></p>
-        <p><a href="https://wine-life.herokuapp.com" target="_blank">https://wine-life.herokuapp.com</a></p>
-        <p>
-          <%= t('projects.project_2.description') %>
-        </p>
-        <p><em><%= t('projects.project_2.tech') %></em></p>
-      </li>
-    </ul>
   </section>
 
   <section class="work-experience">
@@ -108,12 +78,52 @@
         </p>
       </li>
       <li>
+      <li>
         <span><%= t('work.job_2.time') %></span>
         <p><strong><%= t('work.job_2.position') %></strong></p>
         <p><em><%= t('work.job_2.company') %></em></p>
         <p>
           <%= t('work.job_2.description') %>
         </p>
+      </li>
+      <li>
+        <span><%= t('work.job_3.time') %></span>
+        <p><strong><%= t('work.job_3.position') %></strong></p>
+        <p><em><%= t('work.job_3.company') %></em></p>
+        <p>
+          <%= t('work.job_3.description') %>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2><%= t('projects.heading') %></h2>
+
+    <ul class="list">
+      <li>
+        <p><strong>Bixi availability map (work in progress)</strong></p>
+        <p><a href="https://github.com/v-bianchi/bixi-availability-map" target="_blank">https://github.com/v-bianchi/bixi-availability-map</a></p>
+        <p>
+          <%= t('projects.project_1.description') %>
+        </p>
+        <p><em><%= t('projects.project_1.tech') %></em></p>
+      </li>
+      <li>
+        <p><strong>Movie Tandem</strong></p>
+        <p><a href="https://movie-tandem.herokuapp.com" target="_blank">https://movie-tandem.herokuapp.com</a></p>
+        <p>
+          <%= t('projects.project_1.description') %>
+        </p>
+        <p><em><%= t('projects.project_1.tech') %></em></p>
+      </li>
+      <li>
+        <p><strong>React Weather</strong></p>
+        <p><a href="https://mtlweather.netlify.com" target="_blank">https://mtlweather.netlify.com</a></p>
+        <p>
+          <%= t('projects.project_2.description') %>
+        </p>
+        <p><em><%= t('projects.project_2.tech') %></em></p>
       </li>
     </ul>
   </section>
@@ -132,11 +142,6 @@
         <span><%= t('education.degree_2.time') %></span>
         <p><strong>DEP Mécanique automobile</strong></p>
         <p><em>École des métiers de l'équipement motorisé de Montréal</em></p>
-      </li>
-      <li>
-        <span><%= t('education.degree_3.time') %></span>
-        <p><strong>AEC Comptabilité financière informatisée</strong></p>
-        <p><em><%= t('education.degree_3.institution') %></em></p>
       </li>
     </ul>
   </section>

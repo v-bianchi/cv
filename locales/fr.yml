@@ -2,7 +2,7 @@ fr:
   job_title: "Développeur web full stack"
   profile:
     heading: "Profil"
-    about: "Curieux et d'apprentissage facile, j'ai auparavant travaillé dans des domaines très variés, comme la mécanique automobile et la photographie. Après avoir fini un bootcamp en développement web chez Le Wagon, j'ai tout de suite été embauché chez eux-mêmes en tant qu'assistant à l'enseignement freelance. Quelques mois plus tard, une promotion vers le poste d'enseignant s'est présentée et j'ai donné des cours dans les succursales de Montréal, Berlin et São Paulo. Présentement je suis en recherche d'un emploi de développeur web à temps plein."
+    about: "Curieux et d'apprentissage facile, j'ai auparavant touché à des domaines très variés, comme la mécanique automobile et la photographie. Suite à un changement de carrière vers le développement web, j'ai enseigné dans un bootcamp de code à travers le monde et j'ai travaillé pour une compagnie de vêtements personnalisés avec une grande application Rails."
   skills:
     heading: "Compétences"
     teamwork: "Travail en équipe"
@@ -13,16 +13,24 @@ fr:
       description: "Créez une liste de films à voir ensemble pour chacun de vos amis, dans laquelle vous pouvez ajouter des films et marquer ceux que vous avez déjà regardé. Faites login en tant que bob@gmail.com, mot de passe 123456 pour voir un usager démo avec du contenu qui existe déjà."
       tech: "Tech: Rails, PostgreSQL, React, Redux, Bootstrap 4, API de la banque de données de cinéma TMDB"
     project_2:
-      description: "Mon projet final réalisé au bootcamp. Obtenez une suggestion de vin basée sur l'accord avec le repas, votre budget et la disponibilité chez la succursale de la SAQ la plus proche (Montréal seulement)."
-      tech: "Tech: Rails, PostgreSQL, Bootstrap 3 (mobile-first design), API de Google Maps"
+      description: "Un simple site de prévision météo mondiale."
+      tech: "Tech: React, Dark Sky API, Algolia Places API"
+    project_3:
+      description: "Un objet connecté qui montre combien de vélos il y a dans les stations de vélos en libre-service les plus proches."
+      tech: "Tech: Arduino microcontroller, Bixi API"
   work:
     heading: "Expérience de travail récente"
     job_1:
+      position: "Développeur web full stack"
+      company: "Surmesur"
+      time: "mars 2019 - octobre 2019"
+      description: "Régler des bugs et implementer des nouvelles fonctionnalités sur une application Rails de personnalisation de vêtements pour homme, toujours en respectant une procédure de code review et la pratique du TDD."
+    job_2:
       position: "Enseignant en développement web"
       company: "Le Wagon Montréal, Berlin, São Paulo"
       time: "mars 2018 - présent"
-      description: "Donner des cours, répondre aux questions des étudiants à l'aide d'un système de tickets, animer une session de live-code à la fin de la journée"
-    job_2:
+      description: "Donner des cours, répondre aux questions des étudiants à l'aide d'un système de tickets, animer une session de live-code à la fin de la journée."
+    job_3:
       position: "Mécanicien"
       company: "John Scotti Subaru"
       time: "avril 2017 - juillet 2017"
