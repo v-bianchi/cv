@@ -10,7 +10,7 @@ activate :deploy do |deploy|
   deploy.branch = 'gh-pages'
 end
 
-activate :i18n, :mount_at_root => :fr
+activate :i18n, :mount_at_root => :en
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
